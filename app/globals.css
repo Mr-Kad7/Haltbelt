@@ -86,3 +86,4 @@ h1,h2,h3{line-height:1.05;letter-spacing:-.035em}
 img{max-width:100%}button,input,textarea,select{font:inherit}
 @media(max-width:560px){.site-header .brand small{display:none}.footer-bottom{line-height:1.6}}
 .brand-logo{display:block;width:260px;height:58px;max-width:100%;object-fit:contain;background:transparent}
+@media(max-width:560px){.site-header .brand{min-width:0}.site-header .brand-logo,footer .brand-logo{width:210px;height:50px}}
