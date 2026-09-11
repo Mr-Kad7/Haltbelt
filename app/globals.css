@@ -85,4 +85,4 @@ h1,h2,h3{line-height:1.05;letter-spacing:-.035em}
 :focus-visible{outline:2px solid #ff4b4b;outline-offset:3px}.loading-card{display:flex;align-items:center;gap:10px}.loading-dot{width:10px;height:10px;border-radius:50%;background:#ef2029;box-shadow:0 0 20px rgba(239,32,41,.45);animation:pulseSoft 1.5s ease-in-out infinite}
 img{max-width:100%}button,input,textarea,select{font:inherit}
 @media(max-width:560px){.site-header .brand small{display:none}.footer-bottom{line-height:1.6}}
-.brand-logo{display:block;width:300px;height:68px;max-width:100%;object-fit:contain}
+.brand-logo{display:block;width:260px;height:58px;max-width:100%;object-fit:contain;background:transparent}
