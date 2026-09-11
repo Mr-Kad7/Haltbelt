@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main className="container page narrow-wide"><div className="card result-card"><span className="pill">404 · PAGE NOT FOUND</span><h1>That path doesn’t exist.</h1><p className="muted">The page may have moved, or the link may be out of date. Your recovery journey does not have to stop here.</p><div className="hero-actions"><Link className="btn btn-red" href="/">Return home</Link><Link className="btn btn-outline" href="/dashboard">Open dashboard</Link></div></div></main>}

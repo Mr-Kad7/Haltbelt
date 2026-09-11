@@ -1,0 +1,3 @@
+const {app,BrowserWindow,shell}=require('electron');
+function createWindow(){const win=new BrowserWindow({width:1440,height:920,minWidth:1100,minHeight:700,backgroundColor:'#050505',webPreferences:{contextIsolation:true,nodeIntegration:false}});const url=process.env.RECOVERY_PATH_APP_URL||'http://localhost:3000';win.loadURL(url);win.webContents.setWindowOpenHandler(({url})=>{shell.openExternal(url);return {action:'deny'}})}
+app.whenReady().then(()=>{createWindow();app.on('activate',()=>{if(BrowserWindow.getAllWindows().length===0)createWindow()})});app.on('window-all-closed',()=>{if(process.platform!=='darwin')app.quit()});

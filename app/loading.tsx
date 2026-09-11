@@ -1,0 +1,1 @@
+export default function Loading(){return <main className="container page"><div className="card loading-card" aria-live="polite"><span className="loading-dot"/> Preparing your Recovery Path…</div></main>}

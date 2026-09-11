@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 235 680 280" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Haltbet by Eric</title>
+  <desc id="desc">Haltbet by Eric text logo.</desc>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" letter-spacing="-8">
+    <text x="48" y="418" font-size="174" fill="#f7f7f7">Halt</text>
+    <text x="392" y="418" font-size="174" fill="#ef2029">bet</text>
+  </g>
+  <path d="M389 451 C487 422 588 420 696 433 C604 442 496 443 389 451Z" fill="#ef2029"/>
+  <text x="530" y="492" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="900" font-style="italic" fill="#ef2029">by</text>
+  <text x="602" y="492" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="900" font-style="italic" fill="#f7f7f7">Eric</text>
+</svg>

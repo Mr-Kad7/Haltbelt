@@ -1,0 +1,2 @@
+import {NextResponse} from 'next/server';import {createClient} from '@supabase/supabase-js';
+export async function GET(req:Request){const slug=new URL(req.url).searchParams.get('slug');if(!slug)return NextResponse.json({error:'slug required'},{status:400});const s=createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!,process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!);const {data,error}=await s.from('content_items').select('*').eq('slug',slug).eq('published',true).maybeSingle();if(error)return NextResponse.json({error:error.message},{status:500});return NextResponse.json({item:data})}

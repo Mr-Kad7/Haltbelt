@@ -1,0 +1,3 @@
+ "use client";
+import {useEffect} from "react";
+export default function PwaRegister(){useEffect(()=>{if("serviceWorker" in navigator){navigator.serviceWorker.getRegistrations().then(registrations=>Promise.all(registrations.map(registration=>registration.unregister()))).then(()=>caches?.keys().then(keys=>Promise.all(keys.map(key=>caches.delete(key))))).then(()=>navigator.serviceWorker.register("/sw-v3.js")).catch(()=>{});}},[]);return null;}

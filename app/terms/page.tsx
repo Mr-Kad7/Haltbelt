@@ -1,0 +1,1 @@
+export default function Page(){return <main className="container" style={{padding:"70px 24px",maxWidth:850}}><h1>Terms</h1><p className="muted">Production terms must be prepared and reviewed by qualified counsel. Recovery Path should clearly distinguish educational tools from clinical and financial advice and explain professional-service terms.</p></main>}

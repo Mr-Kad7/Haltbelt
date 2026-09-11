@@ -1,0 +1,42 @@
+{
+  "name": "recovery-path",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:web": "next build",
+    "build:android": "npx cap sync android && npx cap open android",
+    "build:ios": "npx cap sync ios && npx cap open ios",
+    "typecheck": "tsc --noEmit",
+    "security:check": "node scripts/security-check.mjs",
+    "desktop": "cd desktop && npm install && npm start",
+    "test": "npm run typecheck",
+    "check": "npm run typecheck && npm run security:check && npm run audit:production",
+    "audit:production": "node scripts/production-audit.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/ios": "latest",
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "latest",
+    "next": "^16.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "recharts": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "^3.4.17",
+    "typescript": "latest"
+  }
+}
