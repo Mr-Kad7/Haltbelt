@@ -8,6 +8,6 @@
   "theme_color": "#e11",
   "orientation": "portrait-primary",
   "icons": [
-    {"src": "/Bet.jpeg", "sizes": "any", "type": "image/jpeg", "purpose": "any maskable"}
+    {"src": "/Bet-transparent.png", "sizes": "any", "type": "image/png", "purpose": "any maskable"}
   ]
 }
