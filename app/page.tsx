@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <div className="trust-row">
             <div className="avatar-stack"><i /><i /><i /><i /></div>
-            <span><strong>Private. Practical. Human.</strong><br /><small>Designed for the moments that matter most.</small></span>
+            <span><strong>There is a life beyond the odds.</strong><br /><small>Designed for the moments that matter most.</small></span>
           </div>
         </div>
 
