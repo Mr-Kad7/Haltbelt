@@ -90,7 +90,7 @@ export default function Home() {
         <div className="banner-copy">
           <div className="eyebrow"><span /> YOU ARE NOT ALONE</div>
           <h2>Your next chapter can start <span className="red">today.</span></h2>
-          <p>Whether you are dealing with urges, debt, damaged relationships or simply feeling stuck, Recovery Path gives you a structured place to begin again.</p>
+          <p>Whether you are dealing with urges, debt, damaged relationships or simply feeling stuck, Haltbet gives you a structured place to begin again.</p>
           <div className="check-list"><span>✓</span> Private and judgment-free <span>✓</span> Practical recovery tools <span>✓</span> Built around real life</div>
           <Link className="btn btn-outline" href="/about">OUR MISSION →</Link>
         </div>
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="trust-copy">
           <div className="eyebrow"><span /> BUILT AROUND TRUST</div>
           <h2>Calm when it matters. <span className="red">Clear when it counts.</span></h2>
-          <p>Recovery Path combines practical self-help tools, human-support pathways, financial rebuilding and private progress tracking in one place. Content and clinical pathways should be reviewed by qualified professionals before public launch.</p>
+          <p>Haltbet combines practical self-help tools, human-support pathways, financial rebuilding and private progress tracking in one place. Content and clinical pathways should be reviewed by qualified professionals before public launch.</p>
           <div className="trust-points"><span>01 · Privacy-first design</span><span>02 · Human support pathways</span><span>03 · Recovery-focused UX</span><span>04 · Safety escalation</span></div>
         </div>
         <div className="trust-visual"><img src="/images/hero-person.png" alt="Person taking a reflective pause during recovery"/><div className="trust-card"><b>YOUR NEXT SAFE STEP</b><span>Pause · Connect · Rebuild</span></div></div>
