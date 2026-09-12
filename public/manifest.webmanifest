@@ -8,6 +8,6 @@
   "theme_color": "#e11",
   "orientation": "portrait-primary",
   "icons": [
-    {"src": "/site-logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+    {"src": "/images/Haltbet.png", "sizes": "any", "type": "image/png", "purpose": "any maskable"}
   ]
 }

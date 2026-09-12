@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'A private, practical recovery platform for gambling urges, rebuilding finances, finding support, and building a life beyond gambling.',
   applicationName: 'Haltbet',
   manifest: '/manifest.webmanifest',
-  icons: { icon: '/site-logo.svg', apple: '/site-logo.svg' },
+  icons: { icon: '/images/Haltbet.png', apple: '/images/Haltbet.png' },
   robots: { index: true, follow: true },
   openGraph: { title: 'Haltbet', description: 'Private, practical support for taking back control from gambling.', type: 'website' },
 };
