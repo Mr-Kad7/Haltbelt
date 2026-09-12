@@ -17,8 +17,6 @@
     </filter>
   </defs>
 
-  <rect width="1600" height="900" fill="#050505"/>
-
   <path d="M-120 610 C300 230, 680 150, 1030 160 C1310 170, 1540 260, 1710 420" stroke="url(#redGlow)" stroke-width="28" stroke-linecap="round" fill="none" filter="url(#softGlow)" opacity="0.95"/>
   <path d="M-80 730 C250 790, 520 770, 760 680 C1020 580, 1300 600, 1670 820" stroke="url(#redGlow)" stroke-width="18" stroke-linecap="round" fill="none" opacity="0.95"/>
 

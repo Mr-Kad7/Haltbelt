@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'A private, practical recovery platform for gambling urges, rebuilding finances, finding support, and building a life beyond gambling.',
   applicationName: 'Haltbet',
   manifest: '/manifest.webmanifest',
-  icons: { icon: '/Halt.png', apple: '/Halt.png' },
+  icons: { icon: '/Bet.jpeg', apple: '/Bet.jpeg' },
   robots: { index: true, follow: true },
   openGraph: { title: 'Haltbet', description: 'Private, practical support for taking back control from gambling.', type: 'website' },
 };
@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <div id="main-content">{children}</div>
     <footer>
       <div className="container footer-inner">
-        <div className="footer-brand"><Link href="/" className="brand"><img className="brand-logo" src="/Halt.png" alt="Haltbet" /></Link><p className="muted">No Judgement</p></div>
+        <div className="footer-brand"><Link href="/" className="brand"><img className="brand-logo" src="/Bet.jpeg" alt="Haltbet" /></Link><p className="muted">No Judgement</p></div>
         <div className="footer-links">
           <div><b>Recovery</b><Link href="/assessment">Assessment</Link><Link href="/urge">Urge Support</Link><Link href="/progress">Progress</Link><Link href="/rebuild">Financial Rebuild</Link><Link href="/care-team">Care Team</Link></div>
           <div><b>Support</b><Link href="/professionals">Professionals</Link><Link href="/community">Community</Link><Link href="/family">Family Support</Link><Link href="/crisis">Crisis Help</Link></div>
