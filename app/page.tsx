@@ -69,9 +69,9 @@ export default function Home() {
 
       <section className="section container">
         <div className="section-heading centered">
-          <div className="eyebrow"><span /> SIMPLE. PRACTICAL. EFFECTIVE.</div>
+          <div className="eyebrow"><span /> A NEW LIFE.</div>
           <h2>How it <span className="red">works.</span></h2>
-          <p>Recovery is not one decision. It is a series of small decisions that become a new direction.</p>
+          <p>Recovery is not a moment of decision. It is the deliberate practice of better choices (made quietly, consistently, and without compromise) until they transform your direction, redefine your identity, and reshape your future.</p>
         </div>
         <div className="steps-grid">
           {steps.map(([title, body], index) => (
