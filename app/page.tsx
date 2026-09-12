@@ -19,8 +19,8 @@ export default function Home() {
     <main>
       <section className="hero container">
         <div className="hero-copy">
-          <div className="eyebrow"><span /> RECOVERY IS POSSIBLE</div>
-          <h1>You can <span className="red">recover.</span><br />We can help.</h1>
+          <div className="eyebrow"><span /></div>
+          <h1>We<span className="red">build.</span><br />New beginings.</h1>
           <p className="hero-lead">
             Recovery Path is a private, practical support system for breaking the gambling cycle,
             rebuilding your finances, restoring relationships and creating a life beyond gambling.

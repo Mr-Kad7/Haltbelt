@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Haltbet</title>
+  <desc id="desc">Haltbet brand wordmark with red accent lines.</desc>
+  <defs>
+    <linearGradient id="redGlow" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff5a5a"/>
+      <stop offset="50%" stop-color="#ef2029"/>
+      <stop offset="100%" stop-color="#b40000"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M-40 200 C140 110, 310 105, 520 138 C690 169, 840 173, 1240 120" stroke="url(#redGlow)" stroke-width="24" stroke-linecap="round" fill="none" opacity="0.95"/>
+  <path d="M-50 300 C120 395, 300 400, 540 360 C720 328, 910 330, 1230 390" stroke="url(#redGlow)" stroke-width="18" stroke-linecap="round" fill="none" opacity="0.9"/>
+
+  <text x="70" y="290" font-family="Arial, Helvetica, sans-serif" font-size="265" font-weight="900" letter-spacing="-11" fill="#f4f4f4">Halt</text>
+  <text x="560" y="290" font-family="Arial, Helvetica, sans-serif" font-size="265" font-weight="900" letter-spacing="-11" fill="url(#redGlow)">bet</text>
+
+  <path d="M586 318 C660 344, 740 335, 826 310 C890 292, 962 298, 1025 313" stroke="url(#redGlow)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.95"/>
+  <path d="M100 208 L1010 208" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+</svg>
