@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <div className="trust-row">
             <div className="avatar-stack"><i /><i /><i /><i /></div>
-            <span><strong>There is a life beyond the odds.</strong><br /><small>Designed for the moments that matter most.</small></span>
+            <span><strong>There is a life beyond the odds.</strong><br /><small>Recovery is the new identity.</small></span>
           </div>
         </div>
 
@@ -52,7 +52,7 @@ export default function Home() {
         {features.map(([num, title, body, href]) => (
           <Link href={href} className="feature-card" key={num}>
             <span className="feature-number">{num}</span>
-            <span className="feature-icon">{num === "01" ? "♡" : num === "02" ? "◈" : num === "03" ? "₵" : "◎"}</span>
+            <span className="feature-icon">{num === "01" ? "♡" : num === "02" ? "◈" : num === "03" ? "$" : "◎"}</span>
             <h3>{title}</h3>
             <p>{body}</p>
             <span className="feature-arrow">Explore →</span>
