@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <div id="main-content">{children}</div>
     <footer>
       <div className="container footer-inner">
-        <div><Link href="/" className="brand"><img className="brand-logo" src="/site-logo.svg" alt="Haltbet" /></Link><p className="muted"> No Judgement</p></div>
+        <div className="footer-brand"><Link href="/" className="brand"><img className="brand-logo" src="/images/Haltbet.png" alt="Haltbet" /></Link><p className="muted">No Judgement</p></div>
         <div className="footer-links">
           <div><b>Recovery</b><Link href="/assessment">Assessment</Link><Link href="/urge">Urge Support</Link><Link href="/progress">Progress</Link><Link href="/rebuild">Financial Rebuild</Link><Link href="/care-team">Care Team</Link></div>
           <div><b>Support</b><Link href="/professionals">Professionals</Link><Link href="/community">Community</Link><Link href="/family">Family Support</Link><Link href="/crisis">Crisis Help</Link></div>
