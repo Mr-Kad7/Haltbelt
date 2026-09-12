@@ -1,6 +1,6 @@
 {
-  "name": "Hatbet by Eric",
-  "short_name": "Hatbet by Eric",
+  "name": "Haltbet",
+  "short_name": "Haltbet",
   "description": "Recovery, urge support and rebuilding tools for people affected by gambling.",
   "start_url": "/",
   "display": "standalone",
@@ -8,6 +8,6 @@
   "theme_color": "#e11",
   "orientation": "portrait-primary",
   "icons": [
-    {"src": "/hatbet-by-eric-v3.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+    {"src": "/site-logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
   ]
 }
