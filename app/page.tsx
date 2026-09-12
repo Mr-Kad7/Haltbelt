@@ -22,8 +22,7 @@ export default function Home() {
           <div className="eyebrow"><span /></div>
           <h1>We<span className="red">build</span><br />New beginnings.</h1>
           <p className="hero-lead">
-            Recovery Path is a private, practical support system for breaking the gambling cycle,
-            rebuilding your finances, restoring relationships and creating a life beyond gambling.
+           Haltbet is a support system for those ready to move beyond gambling. We provide practical pathways to restore financial stability, rebuild relationships, reclaim personal agency, and design a future defined by purpose, prosperity, and freedom.
           </p>
           <div className="hero-actions">
             <Link className="btn btn-red btn-large pulse-btn" href="/urge">I&apos;M HAVING AN URGE <span>↗</span></Link>
