@@ -36,7 +36,7 @@ export default function Home() {
 
         <div className="hero-visual" aria-label="Recovery Path support experience">
           <div className="hero-glow" />
-          <img src="/images/recovery-path-hero.png" alt="Recovery Path recovery support experience" />
+          <img src="/images/public/Recovery.jpeg" alt="Recovery Path recovery support experience" />
           <div className="urge-float glass-card">
             <div>
               <span className="tiny-label">RIGHT NOW</span>
@@ -76,7 +76,7 @@ export default function Home() {
         <div className="steps-grid">
           {steps.map(([title, body], index) => (
             <div className="step-card" key={title}>
-              <div className="step-image"><img src={`/images/${["hero-person.png","support-session.png","financial-rebuild.png","recovery-path.png"][index]}`} alt="" /></div>
+              <div className="step-image"><img src={`/images/${["Image2.jpeg","Image3.jpeg","Image4.jpeg","Image5.jpeg"][index]}`} alt="" /></div>
               <div className="step-badge">0{index + 1}</div>
               <h3>{title}</h3>
               <p>{body}</p>
