@@ -35,7 +35,7 @@ export default function Home() {
         </div>
 
         <div className="hero-visual" aria-label="Recovery Path support experience">
-          <img src="/images/public/Recovery.jpeg" alt="Recovery Path recovery support experience" />
+          <img src="/public/Recovery.jpeg" alt="Recovery Path recovery support experience" />
           <div className="urge-float glass-card">
             <div>
               <span className="tiny-label">RIGHT NOW</span>
