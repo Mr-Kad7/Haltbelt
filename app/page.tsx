@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="hero-visual" aria-label="Recovery Path support experience">
+        <div className="hero-visual" aria-label="Haltbet support experience">
            <div className="hero-glow" />
           <img src="/images/Recovery.jpeg" alt="Haltbet recovery support experience" />
           <div className="urge-float glass-card">
@@ -86,7 +86,7 @@ export default function Home() {
       </section>
 
       <section className="recovery-banner container">
-        <div className="banner-image"><img src="/images/recovery-path.png" alt="A person looking toward a new path" /></div>
+        <div className="banner-image"><img src="/images/image8.jpeg" alt="A person looking toward a new path" /></div>
         <div className="banner-copy">
           <div className="eyebrow"><span /> YOU ARE NOT ALONE</div>
           <h2>Your next chapter can start <span className="red">today.</span></h2>
