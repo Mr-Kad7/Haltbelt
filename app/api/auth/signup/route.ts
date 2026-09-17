@@ -32,27 +32,15 @@ export async function POST(request: Request) {
     }
 
     const admin = supabaseAdmin();
-    const { data: created, error: createError } = await admin.auth.admin.createUser({
-      email,
-      password,
-      email_confirm: false,
-      user_metadata: { name },
-    });
-
-    if (createError || !created.user) {
-      return NextResponse.json({ error: createError?.message || 'Unable to create your account.' }, { status: 400 });
-    }
-
     const appUrl = process.env.NEXT_PUBLIC_APP_URL || new URL(request.url).origin;
     const { data: linkData, error: linkError } = await admin.auth.admin.generateLink({
       type: 'signup',
       email,
       password,
-      options: { redirectTo: `${appUrl}/onboarding` },
+      options: { data: { name }, redirectTo: `${appUrl}/onboarding` },
     });
 
     if (linkError || !linkData.properties?.action_link) {
-      await admin.auth.admin.deleteUser(created.user.id);
       return NextResponse.json({ error: linkError?.message || 'Unable to create the confirmation link.' }, { status: 500 });
     }
 
@@ -72,8 +60,8 @@ export async function POST(request: Request) {
     });
 
     if (!resendResponse.ok) {
-      await admin.auth.admin.deleteUser(created.user.id);
-      return NextResponse.json({ error: 'Unable to send the confirmation email.' }, { status: 502 });
+      const resendError = await resendResponse.json().catch(() => null) as { message?: string } | null;
+      return NextResponse.json({ error: resendError?.message || 'Unable to send the confirmation email.' }, { status: 502 });
     }
 
     return NextResponse.json({ ok: true });
