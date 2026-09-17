@@ -20,7 +20,7 @@ export default function Home() {
       <section className="hero container">
         <div className="hero-copy">
           <div className="eyebrow"><span /></div>
-          <h1>We<span className="red">&nbsp;build</span><br />New beginnings.</h1>
+          <h1>We<span className="#8B0000">&nbsp;build</span><br />New beginnings.</h1>
           <p className="hero-lead">
            Haltbet is a support system for those ready to move beyond gambling. We provide practical pathways to restore financial stability, rebuild relationships, reclaim personal agency, and design a future defined by purpose, prosperity, and freedom.
           </p>
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="trust-copy">
           <div className="eyebrow"><span /> BUILT AROUND TRUST</div>
           <h2>Calm when it matters. <span className="red">Clear when it counts.</span></h2>
-          <p>Haltbet combines practical self-help tools, human-support pathways, financial rebuilding and private progress tracking in one place. Our content and clinic pathways are reviewed by qualified professionals.</p>
+          <p>Haltbet combines practical self-help tools, human-support pathways, financial rebuilding and private progress tracking in one place. Our content and clinical pathways are reviewed by qualified professionals.</p>
           <div className="trust-points"><span>01 · Privacy-first design</span><span>02 · Human support pathways</span><span>03 · Recovery-focused UX</span><span>04 · Safety escalation</span></div>
         </div>
         <div className="trust-visual"><img src="/images/hero-person.png" alt="Person taking a reflective pause during recovery"/><div className="trust-card"><b>YOUR NEXT SAFE STEP</b><span>Transform your direction.</span></div></div>
