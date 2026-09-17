@@ -100,7 +100,7 @@ export default function Home() {
         <div className="trust-copy">
           <div className="eyebrow"><span /> BUILT AROUND TRUST</div>
           <h2>Calm when it matters. <span className="red">Clear when it counts.</span></h2>
-          <p>Haltbet combines practical self-help tools, human-support pathways, financial rebuilding and private progress tracking in one place. Content and clinical pathways should be reviewed by qualified professionals before public launch.</p>
+          <p>Haltbet combines practical self-help tools, human-support pathways, financial rebuilding and private progress tracking in one place. Our content and clinic pathways are reviewed by qualified professionals.</p>
           <div className="trust-points"><span>01 · Privacy-first design</span><span>02 · Human support pathways</span><span>03 · Recovery-focused UX</span><span>04 · Safety escalation</span></div>
         </div>
         <div className="trust-visual"><img src="/images/hero-person.png" alt="Person taking a reflective pause during recovery"/><div className="trust-card"><b>YOUR NEXT SAFE STEP</b><span>Transform your direction.</span></div></div>
