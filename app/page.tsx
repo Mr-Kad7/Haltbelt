@@ -21,7 +21,7 @@ export default function Home() {
         <div className="hero-copy">
           <div className="eyebrow"><span /></div>
           <h1>
-          We <span style={{ color: "#8B0000" }}>build</span><br /> New beginnings.</h1>
+          We <span style={{ color: "#FFFFFF" }}>build</span><br /> New beginnings.</h1>
           <p className="hero-lead">
            Haltbet is a support system for those ready to move beyond gambling. We provide practical pathways to restore financial stability, rebuild relationships, reclaim personal agency, and design a future defined by purpose, prosperity, and freedom.
           </p>

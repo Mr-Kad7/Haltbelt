@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="footer-brand"><Link href="/" className="brand"><img className="brand-logo" src="/Bet-transparent.png" alt="Haltbet" /></Link><p className="muted">No Judgement</p></div>
         <div className="footer-links">
           <div><b>Recovery</b><Link href="/assessment">Assessment</Link><Link href="/urge">Urge Support</Link><Link href="/progress">Progress</Link><Link href="/rebuild">Financial Rebuild</Link><Link href="/care-team">Care Team</Link></div>
-          <div><b>Support</b><Link href="/professionals">Professionals</Link><Link href="/community">Community</Link><Link href="/family">Family Support</Link><Link href="/crisis">Crisis Help</Link></div>
+          <div><b>Support</b><Link href="/professionals">Professionals</Link><Link href="/community">Community</Link><Link href="/family">Family Support</Link></div>
           <div><b>Company</b><Link href="/about">About</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/downloads">Apps</Link></div>
         </div>
       </div>
