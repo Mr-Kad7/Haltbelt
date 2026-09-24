@@ -26,8 +26,9 @@ export async function POST(request: Request) {
     }
 
     const resendApiKey = process.env.RESEND_API_KEY;
-    const resendFromEmail = process.env.RESEND_FROM_EMAIL;
-    if (!resendApiKey || resendApiKey === 'YOUR_RESEND_API_KEY' || !resendFromEmail || resendFromEmail === 'YOUR_VERIFIED_EMAIL') {
+    const configuredFromEmail = process.env.RESEND_FROM_EMAIL?.trim();
+    const resendFromEmail = configuredFromEmail && configuredFromEmail !== 'YOUR_VERIFIED_EMAIL' ? configuredFromEmail : 'onboarding@resend.dev';
+    if (!resendApiKey || resendApiKey === 'YOUR_RESEND_API_KEY') {
       return NextResponse.json({ error: 'Email confirmation is not configured yet.' }, { status: 503 });
     }
 
